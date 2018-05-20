@@ -41,7 +41,7 @@ $('#s3').fadeIn("slow");
 $('#idSearch').click(function(e){
 	e.preventDefault();
 	a = `&i=`+ ($('#idInput').val()).toLowerCase();
-	link= `http://www.omdbapi.com/?apikey=deb25011&`+a;
+	link= `https://www.omdbapi.com/?apikey=deb25011&`+a;
 	allData();
 	// $("#data").fadeIn("slow");
 
@@ -51,7 +51,7 @@ $('#idSearch').click(function(e){
 $('#nameSearch').click((e)=>{
 	e.preventDefault();
 	b = '&t='+ $('#nameInput').val();
-	link = `http://www.omdbapi.com/?apikey=deb25011&`+b;
+	link = `https://www.omdbapi.com/?apikey=deb25011&`+b;
 	allData()
 	// $("#data").fadeIn("slow");
 })
@@ -59,7 +59,7 @@ $('#nameSearch').click((e)=>{
 $('#yearSearch').click((e)=>{
 	e.preventDefault();
 	c = `&t=`+$("#name2Input").val()+`&y=`+$("#yearInput").val();
-	link = `http://www.omdbapi.com/?apikey=deb25011&`+c;
+	link = `https://www.omdbapi.com/?apikey=deb25011&`+c;
 	allData();
 	// $("#data").fadeIn("slow");
 })
