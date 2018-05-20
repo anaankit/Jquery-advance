@@ -1,0 +1,68 @@
+:root{
+
+	font-size: 16px;
+}
+
+body{
+	padding-bottom: 20%;
+}
+
+.sm{
+	font-size: 2rem;
+	margin-top: 10%;
+}
+
+
+#r1{
+	border-bottom: double;
+	border-style: 
+}
+
+
+.spacer{
+	margin-top: 5%;
+
+
+}
+
+.tStyle{
+	font-size: 1.5rem;
+	text-align: right;
+
+}
+
+
+
+.posterHeight{
+	border:0.5vw solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px grey;
+   	/*margin-left: 10vw;*/
+}
+
+
+
+p{
+border: 0.5vw solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+
+#tData{
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+a:hover{
+	color:white !important;
+}
+
+
+
+#brand:hover{
+	color:grey !important;
+}
+

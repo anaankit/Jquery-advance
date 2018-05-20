@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery Assignment 2</title>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+
+<!-- navbar -->
+<div classs="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a id="brand" class="navbar-brand" href="#">Jquery Assignment 2</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      
+      <li class="nav-item">
+        <a class="nav-link text-grey" href="readMe.txt" target="_blank">View Read Me</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-grey" href="https://github.com/anaankit/Jquery-assignment-2.git" target="_blank">View source on github</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+</div>
+<!-- nav end -->
+
+
+
+<div class="container">
+
+	<div id="r1" class="row">
+		
+		<div class="sm">Search Movies</div>
+	</div>
+
+	<div  class="row spacer">
+    <div class="col-6">
+		<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label id="option1" class="btn btn-secondary active">
+    <input type="radio" name="options"  autocomplete="off" > Using ID
+  </label>
+  <label id="option2" class="btn btn-secondary">
+    <input type="radio" name="options"  autocomplete="off"> Using Name
+  </label>
+  <label id="option3" class="btn btn-secondary">
+    <input type="radio" name="options"  autocomplete="off"> Using Year
+  </label>
+  </div>
+</div>
+	</div>
+
+
+<!--  -->
+
+<div class="container-fluid">
+
+	<div class="sBox">
+<div id="s1" class="row spacer">
+	<form class="form-inline">
+    <input id="idInput" class="form-control mr-sm-2" type="search" placeholder="Enter IMDB ID" aria-label="Search">
+    <button id="idSearch" class="btn btn-outline-primary my-2 my-sm-0">Search
+    </button>
+  </form>
+</div>
+</div>
+
+<div id="s2" class="row spacer">
+	<form class="form-inline">
+    <input id="nameInput" class="form-control mr-sm-2" type="search" placeholder="Enter Name" aria-label="Search">
+    <button id="nameSearch" class="btn btn-outline-primary my-2 my-sm-0">Search
+    </button>
+  </form>
+</div>
+
+
+
+<div id="s3" class="row spacer">
+	<form class="form-inline">
+    <input id="name2Input" class="form-control mr-sm-2" type="search" placeholder="Enter Name" aria-label="Search">
+    <input id="yearInput" class="form-control mr-sm-2" type="search" placeholder="Enter Year" aria-label="Search">
+    <button id="yearSearch" class="btn btn-outline-primary my-2 my-sm-0" >Search
+    </button>
+  </form>
+</div>
+
+</div>	
+</div>
+
+<!--  -->
+<div class="container" id="data">
+	<div class="row spacer">
+<!--     <div class="col-1"></div>
+ -->		<div id="tData" class="col-md-12">
+			Title: N/A
+		</div>
+	</div>
+
+	<div class="row spacer">
+		<div class="col-md-6 col-sm-12">
+<p id="year">Year</p>
+<p id="runtime">Runtime</p>
+<p id="actors">Actors</p>
+<p id="rating">Imdb rating </p>
+<p id="genre">Genre</p>
+<p id="director">director</p>
+<p id="language">language</p>
+<p id="plot">plot</p>
+<p id="website">Website</p>
+
+
+		</div>
+		<div class="col-md-2 col-sm-0">
+<!-- <p id="year"></p>
+<p id="runtime"></p>
+<p id="actors"></p>
+<p id="rating"></p>
+<p id="website">Website</p>
+     -->
+   </div>
+		<div class="col-md-4 col-sm-12">
+			<img id="poster" src="img.jpg" class="img-fluid posterHeight"/>
+    <!-- <div id="poster"></div> -->
+		</div>
+	</div>
+	
+</div>
+
+
+<!--  -->
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
