@@ -82,7 +82,7 @@ let allData = () => {
 		type:'GET',
 		dataType:'json',
 		async:true,
-		timeout:2000,
+		timeout:3000,
 		url:link,
 
 		success:(response)=>{
